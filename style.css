@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* trying to add image without using background-image rest two pages have been made using background-image only*/
+#page1{
+    position: relative;
+    width: 100w;
+    height: 100vh;
+    overflow: hidden;
+}
+#page1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page1link1{
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+#page1link2{
+    position: absolute;
+    top: 8%;
+    left: 90%;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+}
+
+#page1box1{
+    width: 662px;
+    height: 268px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    font-size: 55px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 6.6px;
+    font-weight: 800;
+    background: linear-gradient(166deg, rgba(217, 217, 217, 0.60) 0%, rgba(217, 217, 217, 0.20) 100%);
+    box-shadow: 14px 10px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+}
+#page1box2{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 662px;
+    height: 68px;
+    border-radius: 40px;
+    background: linear-gradient(148deg, rgba(217, 217, 217, 0.60) 0%, rgba(217, 217, 217, 0.30) 100%);
+    box-shadow: 10px 8px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(15px);
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("Rectangle\ 8.png");
+    background-size: cover;
+}
+#page2link1{
+    position: relative;
+    top: 8%;
+    left: 8%;
+    text-decoration: none;
+    width: 190.972px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+#page2link2{
+    position: relative;
+    top: 8%;
+    left: 70%;
+    text-decoration: none;
+    width: 183px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 46px;
+}
+#page2para1{
+    position: relative;
+    left: 50%;
+    top: 18%;
+    width: 367px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.24px;
+    mix-blend-mode: overlay;
+    height: 91px;
+}
+#page2box{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    height: 58%;
+    flex-shrink: 0;
+    width: 90%;
+    border-radius: 40px;
+    background: linear-gradient(166deg, rgba(217, 217, 217, 0.60) 0%, rgba(217, 217, 217, 0.20) 100%);
+    box-shadow: 14px 10px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page2box p{
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+}
+
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("Rectangle\ 8.png");
+    background-size: cover;
+}
+#page3link1{
+    position: relative;
+    top: 8%;
+    left: 8%;
+    text-decoration: none;
+    width: 190.972px;
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+#page3link2{
+    position: relative;
+    top: 8%;
+    left: 70%;
+    text-decoration: none;
+    width: 183px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 46px;
+}
+#page3para1{
+    position: relative;
+    left: 50%;
+    top: 25%;
+    width: 537px;
+    height: 145px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.24px;
+    mix-blend-mode: lighten;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+}
+#page3para2{
+    position: relative;
+    left: 50%;
+    top: 13%;
+    width: 537px;
+    height: 145px;
+    flex-shrink: 0;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.24px;
+    mix-blend-mode: lighten;
+    color: #FFF;
+    transform: translate(-50%, -50%);
+}
+#page3box{
+    position: relative;
+    height: 40%;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+#page3box1 ,#page3box2,#page3box3{
+    width: 30%;
+    height: 100%;
+    background: linear-gradient(166deg, rgba(217, 217, 217, 0.60) 0%, rgba(217, 217, 217, 0.20) 100%);
+    box-shadow: 14px 10px 24px -1px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+}
